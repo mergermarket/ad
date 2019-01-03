@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "test": "echo \"Simulating testing phase\"",
+    "test": "echo \"Simulating testing phase\" | echo $?",
     "test:watch": "echo \"Simulating testing phase\"",
     "build":"echo \"Simulating build phase\"",
     "lint": "standard",
