@@ -1,7 +1,8 @@
 {
   "name": "ad",
-  "version": "0.3.0",
+  "version": "0.32.0",
   "description": "Active Directory API for Node",
+  "repository": "https://github.com/mergermarket/active-directory-library",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
@@ -24,6 +25,14 @@
     "easy",
     "chainable"
   ],
+  "standard": {
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "publishConfig": {
+    "registry": "http://mmrepo.artifactoryonline.com/mmrepo/api/npm/npm-local"
+  },
   "author": "dthree",
   "license": "MIT",
   "dependencies": {
