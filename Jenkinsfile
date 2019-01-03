@@ -22,13 +22,13 @@ pipeline {
             }
         }
 
-        stage("Test") {
+        /*stage("Test") {
             steps {
                 ansiColor("xterm") {
                     sh "docker run active-directory-library yarn test"
                 }
             }
-        }
+        }*/
 
 
         stage("Publish") {
