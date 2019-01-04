@@ -1,6 +1,6 @@
 {
   "name": "ad",
-  "version": "0.32.1",
+  "version": "0.32.2",
   "description": "Active Directory API for Node",
   "repository": "https://github.com/mergermarket/active-directory-library",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "config.js",
     "licence",
     "readme.md",
-    "yarn.lock"
+    "yarn.lock",
+    "config.js"
   ],
   "scripts": {
     "precommit": "lint-staged",
