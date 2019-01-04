@@ -32,9 +32,11 @@ pipeline {
 
 
         stage("Publish") {
+            /* we build only on the master branch currently so it's skipped
             when {
                 branch "master"
             }
+            */
             steps {
                 ansiColor("xterm") {
                     sh "docker run active-directory-library ./idempotent-publish.sh"
