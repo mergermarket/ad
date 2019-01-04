@@ -10,7 +10,7 @@
     "licence",
     "readme.md",
     "yarn.lock",
-    "config.js"
+    "config.json"
   ],
   "scripts": {
     "precommit": "lint-staged",
