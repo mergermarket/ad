@@ -4,6 +4,13 @@
   "description": "Active Directory API for Node",
   "repository": "https://github.com/mergermarket/active-directory-library",
   "main": "index.js",
+  "files": [
+    "src",
+    "config.js",
+    "licence",
+    "readme.md",
+    "yarn.lock"
+  ],
   "scripts": {
     "precommit": "lint-staged",
     "test": "echo \"Simulating testing phase\" | echo $?",
@@ -27,7 +34,16 @@
   ],
   "standard": {
     "ignore": [
-      "node_modules"
+      "node_modules",
+      "DockerFile",
+      "Jenkinsfile",
+      "lint-staged.config.js",
+      "idempotent-publish.sh",
+      "docker-compose.yml",
+      "test",
+      "jenkins-config",
+      "infrastructure"
+
     ]
   },
   "publishConfig": {
