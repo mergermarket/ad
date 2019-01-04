@@ -1,6 +1,6 @@
 {
   "name": "ad",
-  "version": "0.32.0",
+  "version": "0.32.1",
   "description": "Active Directory API for Node",
   "repository": "https://github.com/mergermarket/active-directory-library",
   "main": "index.js",
