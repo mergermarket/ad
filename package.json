@@ -54,7 +54,7 @@
   "license": "MIT",
   "dependencies": {
     "activedirectory": "^0.7.2",
-    "ldapjs": "^1.0.1",
+    "ldapjs": "^2.3.0",
     "lodash.orderby": "^4.6.0",
     "node-ssha256": "^0.1.1"
   },
